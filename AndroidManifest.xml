@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.BuildingManager">
+    <uses-sdk android:minSdkVersion="11"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".k.views.main">
+        <intent-filter>
+            <action android:name="com.example.BuildingManager.k.views.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+        </activity>
+        <activity android:name=".k.views.saveManager">
+        <intent-filter>
+            <action android:name="com.example.BuildingManager.k.views.SAVEMANAGER"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+        </activity>
+        <activity android:name=".k.views.confirmManager">
+        <intent-filter>
+            <action android:name="com.example.BuildingManager.k.views.CONFIRMMANAGER"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+        </activity>
+        <activity android:name=".k.views.viewManager">
+        <intent-filter>
+            <action android:name="com.example.BuildingManager.k.views.VIEWMANAGER"/>
+            <category android:name="android.intent.category.DEFAULT"/>
+        </intent-filter>
+        </activity>
+    </application>
+</manifest>
